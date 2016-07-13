@@ -1,4 +1,14 @@
 array-every
 =======
 
-array every for the browser and node.js
+tests whether all elements in the array pass the test implemented by the provided function.
+
+
+```javascript
+var arrayEvery = require("array-every");
+
+
+var isTrue = arrayEvery([2, 4, 6], function isDivisibleBy2(value, index, array) {
+    return value % 2 === 0;
+});
+```

@@ -5,7 +5,7 @@ tests whether all elements in the array pass the test implemented by the provide
 
 
 ```javascript
-var arrayEvery = require("array-every");
+var arrayEvery = require("@nathanfaucett/array-every");
 
 
 var isTrue = arrayEvery([2, 4, 6], function isDivisibleBy2(value, index, array) {

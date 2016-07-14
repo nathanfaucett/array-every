@@ -1,6 +1,6 @@
 {
   "name": "@nathanfaucett/array-every",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "arrayEvery tests whether all elements in the array pass the test implemented by the provided function.",
   "repository": {
     "type": "git",
